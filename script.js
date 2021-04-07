@@ -16,7 +16,7 @@ console.log(i)
 
 //Let mirip kyk var, cuma ga bisa di tampilin discope berbeda
 
-//contoh salah karena x didefine let didalam loop jadi ga bisa ditampilin di scope utama
+//contoh salah karena x didefine let didalam loop jadi ga bisa ditampilin di scope utama tetapi bisa ditampilin didalam loop
 const myCarLet = ["BMW", "Ferrari", "Tesla"]
 
 for (let x=0; x < myCarLet.length; x++) {
@@ -24,4 +24,4 @@ for (let x=0; x < myCarLet.length; x++) {
     console.log(x)
 }
 
-console.log(x)
+// console.log(x)
